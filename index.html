@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Barbershop Borodinski</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/carusel.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="header_nav">
+				<ul>
+					<li><a class="header_nav__link-current" href="#">главная</a></li>
+					<li><a href="#">информация</a></li>
+					<li><a href="#">новости</a></li>
+					<li><a href="#">прайс-лист</a></li>
+					<li><a href="#">магазин</a></li>
+					<li><a href="#">контакты</a></li>
+				</ul>	
+			</nav>
+			<div class="header_user-block">
+				<a href="#" class="header_user-block__login">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main class="container">
+		<div class="index-logo">
+			<img src="img/index-logo.png" width="368" height="204" alt="Лого Барбершопа Borodinski">
+		</div>
+		<div class="features clearfix">
+			<div class="features_item">
+				<b class="features_item__name">быстро</b>
+				<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладетель стильной стрижки-минутки!</p>
+			</div>
+			<div class="features_item">
+				<b class="features_item__name">круто</b>
+				<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+			</div>
+			<div class="features_item">
+				<b class="features_item__name">дорого</b>
+				<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>
+			</div>
+		</div>
+		<div class="index-content clearfix">
+			<div class="index-content_left">
+				<h2 class="index-content__title">новости</h2>
+				<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+				<time datetime="2017-08-14">14 августа</time>
+				<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+				<time datetime="2017-08-20">20 августа</time>
+				<a href="" class="btn btn-news">все новости</a>
+			</div>
+			<div class="index-content_right">
+				<h2 class="index-content__title">фотогалерея</h2>
+				<div class="viewport">
+					<ul data-current="0" class="slidewrapper">
+						<li class="slide"><img src="img/slide-1.jpg" alt=""></li>
+						<li class="slide"><img src="img/slide-2.jpg" alt=""></li>
+						<li class="slide"><img src="img/slide-3.jpg" alt=""></li>
+						<li class="slide"><img src="img/slide-4.jpg" alt=""></li>
+					</ul>
+				</div>
+				<a href="javascript: void(0)" id="prev_slide" class="btn btn-prev">Назад</a>
+				<a href="javascript: void(0)" id="next_slide" class="btn btn-next">Вперед</a>
+			</div>	
+		</div>
+		<div class="index-content clearfix">
+			<div class="index-content_left index-contact">
+				<h2 class="index-content__title">контактная информация</h2>
+				<p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>ТЕЛЕФОН: +7 (495) 666-02-66</p>
+				<p>ВРЕМЯ РАБОТЫ: ПН — ПТ:<br> С 10:00 ДО 22:00<br>СБ — ВС: С 10:00 ДО 19:00</p>
+				<div class="index-contact_buttons">
+					<button class="btn index-contact_buttons__map">как проехать</button>
+					<button class="btn index-contact_buttons__feedback">обратная связь</button>
+				</div>
+			</div>
+			<div class="index-content_right">
+				<h2 class="index-content__title">записаться</h2>
+				<p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+				<form class="index-content_appointment-form" action="">
+					<input class="text" type="text" name="date" placeholder="дата">
+					<input type="text" name="time" placeholder="время">
+					<input type="text" name="name" placeholder="ваше имя">
+					<input type="text" name="phone" placeholder="телефон">
+				</form>
+				<button class="btn btn-submit" type="submit">Отправить</button>
+			</div>
+		</div>
+	</main>	
+	<footer class="footer">
+		<div class="container clearfix">
+			<div class="footer_contacts">
+				БАРБЕРШОП «БОРОДИНСКИЙ»<br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>barbershop-borodinski@gmail.com<br>ТЕЛЕФОН: +7 (495) 666-02-66
+			</div>
+			<div class="footer_copyright-htmlacademy">
+				<b class="footer__bold">МАКЕТ:</b>
+				<a class="htmlacademy-logo" href="https://htmlacademy.ru/" target="_blank"><img src="img/htmacademy-logo.svg" width="161" height="55" alt="лого HTML academy"></a>
+			</div>
+			<div class="footer-copyright-imposer">
+				<b class="footer__bold">ВЕРСТКА:</b> 
+				<a class="btn btn-imposer" href="https://vk.com/naumov1889" target="_blank">наумов максим</a>
+			</div>
+		</div>
+	</footer>
+	<div class="popup_login">
+		<button class="popup_login__close" type="button" title="Закрыть">Закрыть</button>
+		<h2 class="popup_login__title">Личный кабинет</h2>
+		<p class="popup_login__tip">Введите свой логин и парол
+		<form class="popup_login__form" action="">
+			<input type="text" name="login" placeholder="Логин">
+			<input type="password" name="password" placeholder="Пароль">
+			<label class="popup_login__checkbox">
+				<input class="popup_login__checkbox" type="checkbox" name="remember">
+				Запомните меня
+			</label>
+			<a class="popup_login__forget" href="">Я забыл пароль!</a>
+			<button class="btn popup_login__submit" type="submit">Войти</button>
+		</form>
+	</div>
+
+	<div class="popup_overlay"></div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+</body>
+</html>
